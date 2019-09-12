@@ -1,0 +1,41 @@
+.page{
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/background.9e15dd99.jpg");
+    background-repeat: no-repeat;
+}
+canvas{
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    border: 8px solid grey;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 37px 14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 37px 14px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 37px 14px rgba(0,0,0,0.75);
+    z-index: 0;
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+
+}
+.smorc{
+    position: absolute;
+    top: 118px;
+    left: 98px;
+    z-index: 1;
+}
+.face{
+    position: absolute;
+    top: 178px;
+    left: 113px;
+    z-index: 1;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
